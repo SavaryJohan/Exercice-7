@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exo 7</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <fieldset class="blue">
+    <legend class="blue">Votre identité</legend>
+    <ol>
+      <li>
+        <label for="lastName">Nom</label>
+        <input type="text" name="lastName" id="lastName" placeholder="Dupont">
+      </li>
+      <li>
+        <label for="firstName">Prénom</label>
+        <input type="text" name="firstName" id="firstName" placeholder="Jean">
+      </li>
+      <li>
+        <label for="email">Adresse email</label>
+        <input type="email" name="email" id="email" placeholder="azerty@exemple.com">
+      </li>
+    </ol>
+  </fieldset>
+
+  <fieldset class="purple">
+    <legend class="purple">Adresse de livraison</legend>
+    <ol>
+      <li>
+        <label for="address">Adresse</label>
+        <textarea id="address" name="address" id="address" rows="5" cols="23"></textarea>
+      </li>
+      <li>
+        <label for="postalCode">Code postal</label>
+        <input type="text" name="postalCode" id="postalCode" placeholder="14800">
+      </li>
+      <li>
+        <label for="city">Ville</label>
+        <input type="text" name="city" id="city" placeholder="Deauville">
+      </li>
+    </ol>
+  </fieldset>
+
+  <fieldset class="red">
+    <legend class="red">Information de réglement</legend>
+    <ol>
+      <li>
+        Type de carte bancaire
+        <ul>
+          <li>
+            <input type="radio" id="visa" name="cards" value="visa">
+            <label for="visa"></label>VISA
+          </li>
+          <li>
+            <input type="radio" id="mastercard" name="cards" value="mastercard">
+            <label for="mastercard"></label>Mastercard
+          </li>
+
+        </ul>
+      </li>
+      <li>
+        <label for="cardNumber">Numéro de carte</label>
+        <input type="text" placeholder="1234 5678 9123 1235">
+      </li>
+      <li>
+        <label for="securityCode">Code de sécurité</label>
+        <input type="text" placeholder="100">
+      </li>
+      <li>
+        <label for="olderName">Nom du titulaire</label>
+        <input type="text" placeholder="DUPONT JEAN">
+      </li>
+  </fieldset>
+
+  <button type="submit" value="envoyer le payement">J'achète</button>
+</body>
+
+</html>

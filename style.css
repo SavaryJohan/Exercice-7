@@ -1,0 +1,19 @@
+.blue {
+    background-color: #2574A9;
+}
+.purple {
+    background-color: #9A12B3;
+}
+.red {
+    background-color: #DB0A5B;
+}
+label {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input {
+    margin: 0.2rem;
+}
+ul {
+    list-style: none;
+}
